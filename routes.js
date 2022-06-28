@@ -14,4 +14,6 @@ module.exports = function(app){
         .post(jsonku.tambahDataMahasiswa)
     app.route('/ubah')
         .put(jsonku.ubahDataMahasiswa)
+    app.route('/hapus')
+        .delete(jsonku.hapusDataMahasiswa)
 }
